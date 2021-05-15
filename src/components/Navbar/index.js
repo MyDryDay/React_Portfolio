@@ -6,7 +6,6 @@ import {
     AiOutlineProject,
     AiOutlineFolder
 } from 'react-icons/ai';
-import './style.css';
 
 const Navbar = () => {
     const [expanded, setExpanded] = useState(true);
