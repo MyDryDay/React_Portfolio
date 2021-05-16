@@ -65,3 +65,74 @@ h3{
     text-decoration: none;
     color: #AAAAAA;
 }
+
+/* Projects page */
+.projectCard{
+    margin-bottom: 5%;
+}
+
+.projectContainer{
+    position: relative;
+}
+
+.projectImg{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #262626;
+    border-radius:.25rem;
+}
+
+.projectContainer:hover a{
+    color: white;
+}
+
+.projectContainer:hover .overlay {
+    opacity: 0.7;
+}
+
+.headerText {
+    color: white;
+    font-size: 1.2em;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.linkRepo{
+    color: white;
+    font-size: 1em;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.linkApp{
+    color: white;
+    font-size: 1em;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
