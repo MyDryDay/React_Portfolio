@@ -4,8 +4,9 @@ import {
     AiOutlineHome,
     AiOutlineUser,
     AiOutlineProject,
-    AiOutlineFolder
+    AiOutlineDownload
 } from 'react-icons/ai';
+import CV from '../../cv/CV_v1.pdf'
 
 const Navbar = () => {
     const [expanded, setExpanded] = useState(true);
@@ -38,7 +39,7 @@ const Navbar = () => {
                             > <AiOutlineProject style={{marginBottom: '2px'}} /> Projects </Link>
                         </li>
                         <li className='nav-item'>
-                            <a href='https://docs.google.com/document/d/1k9VD8064Edh7Wo7iB2MpGy-24TF85LiKkbcL9fuJSY4/edit?usp=sharing' className='nav-link' target='_blank' rel='noopener noreferrer'> <AiOutlineFolder style={{marginBottom: '2px'}} /> Resume </a>
+                            <a href={CV} className='nav-link' target='_blank' rel='noopener noreferrer'> <AiOutlineDownload style={{marginBottom: '2px'}} /> CV </a>
                         </li>
                     </ul>
                 </div>
