@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/React_Portfolio/static/css/main.1286f0b9.chunk.css",
+    "main.js": "/React_Portfolio/static/js/main.d9874975.chunk.js",
+    "main.js.map": "/React_Portfolio/static/js/main.d9874975.chunk.js.map",
+    "runtime-main.js": "/React_Portfolio/static/js/runtime-main.46b68097.js",
+    "runtime-main.js.map": "/React_Portfolio/static/js/runtime-main.46b68097.js.map",
+    "static/css/2.61b4cb56.chunk.css": "/React_Portfolio/static/css/2.61b4cb56.chunk.css",
+    "static/js/2.06b78152.chunk.js": "/React_Portfolio/static/js/2.06b78152.chunk.js",
+    "static/js/2.06b78152.chunk.js.map": "/React_Portfolio/static/js/2.06b78152.chunk.js.map",
+    "index.html": "/React_Portfolio/index.html",
+    "static/css/2.61b4cb56.chunk.css.map": "/React_Portfolio/static/css/2.61b4cb56.chunk.css.map",
+    "static/css/main.1286f0b9.chunk.css.map": "/React_Portfolio/static/css/main.1286f0b9.chunk.css.map",
+    "static/js/2.06b78152.chunk.js.LICENSE.txt": "/React_Portfolio/static/js/2.06b78152.chunk.js.LICENSE.txt",
+    "static/media/BudgetTracker.c53ae856.png": "/React_Portfolio/static/media/BudgetTracker.c53ae856.png",
+    "static/media/CV_v1.9a75a79a.pdf": "/React_Portfolio/static/media/CV_v1.9a75a79a.pdf",
+    "static/media/CodeQuiz.432f8fbd.png": "/React_Portfolio/static/media/CodeQuiz.432f8fbd.png",
+    "static/media/EmployeeDirectory.10cb782d.png": "/React_Portfolio/static/media/EmployeeDirectory.10cb782d.png",
+    "static/media/FFS.6c37e28c.png": "/React_Portfolio/static/media/FFS.6c37e28c.png",
+    "static/media/JapanTrip1.8a79921a.jpg": "/React_Portfolio/static/media/JapanTrip1.8a79921a.jpg",
+    "static/media/PasswordGen.f11a59ee.png": "/React_Portfolio/static/media/PasswordGen.f11a59ee.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.46b68097.js",
+    "static/css/2.61b4cb56.chunk.css",
+    "static/js/2.06b78152.chunk.js",
+    "static/css/main.1286f0b9.chunk.css",
+    "static/js/main.d9874975.chunk.js"
+  ]
+}
