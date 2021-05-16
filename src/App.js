@@ -1,6 +1,7 @@
 import React from 'react';
 import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import Navbar from './components/Navbar/index';
+import Footer from './components/Footer/index';
 
 import About from './pages/about';
 import Projects from './pages/projects';
@@ -23,6 +24,7 @@ function App() {
             <Projects />
           </Route>
         </Switch>
+        <Footer />
       </div>
     </Router>
   );
