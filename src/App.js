@@ -11,18 +11,18 @@ function App() {
   return (
     <Router>
       <div>
-      <Navbar />
-      <Switch>
-        <Route exact path='/'>
-          <About />
-        </Route>
-        <Route exact path='/about'>
-          <About />
-        </Route>
-        <Route exact path='/projects'>
-          <Projects />
-        </Route>
-      </Switch>
+        <Navbar />
+        <Switch>
+          <Route exact path='/'>
+            <About />
+          </Route>
+          <Route exact path='/about'>
+            <About />
+          </Route>
+          <Route exact path='/projects'>
+            <Projects />
+          </Route>
+        </Switch>
       </div>
     </Router>
   );
