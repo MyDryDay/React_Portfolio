@@ -26,7 +26,7 @@ const About = () => {
             <div className='container-fluid'>
                 <div className='row'>
                     <div className='aboutSection'>
-                    <br></br>
+                        <br></br>
                         <h3 className='center'>About Me</h3>
                         <br></br>
                         <div className='objectDiv col-xs-8 col-sm-8 col-md-8 col-lg-6 mx-auto'>
@@ -38,6 +38,12 @@ const About = () => {
                                     <span className='objKey'>age</span>: <span className='objInt'>23</span>, <br></br>
                                     <span className='objKey'>occupation</span>: <span className='objString'>"Student"</span>, <br></br>
                                     <span className='objKey'>interests</span>: [<span className='objString'>"reading"</span>, <span className='objString'>"walking"</span>, <span className='objString'>"gaming"</span>, <span className='objString'>"puzzles"</span>], <br></br>
+                                    <span className='objKey'>skills</span>: &#123; <br></br>
+                                        <p className='tab'>
+                                            <span className='objKey'>soft skills</span>: [<span className='objString'>"communication"</span>, <span className='objString'>"critical thinking"</span>, <span className='objString'>"problem solving"</span>, <span className='objString'>"patience"</span>, <span className='objString'>"time management"</span>], <br></br>
+                                            <span className='objKey'>hard skills</span>: [<span className='objString'>"HTML & CSS"</span>, <span className='objString'>"javascript & jquery"</span>, <span className='objString'>"github"</span>, <span className='objString'>"heroku"</span>, <span className='objString'>"node js"</span>, <span className='objString'>"mySQL"</span>, <span className='objString'>"mongoDB"</span>, <span className='objString'>"webpack"</span>, <span className='objString'>"react"</span>] <br></br>
+                                        </p>
+                                    &#125;, <br></br>
                                     <span className='objKey'>contact</span>: &#123;
                                         <p className='tab'>
                                             <span className='objKey'>#1</span>: <a href='https://www.linkedin.com/in/george-cope-633b761bb/' className='objLink' target='_blank' rel='noopener noreferrer'>LinkedIn <AiOutlineLinkedin /></a> <br></br>
@@ -49,6 +55,7 @@ const About = () => {
                                 </p>
                             &#125; <span className='blink'>_</span>
                         </div>
+                        <br></br>
                     </div>
                 </div>
             </div>
