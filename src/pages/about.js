@@ -14,7 +14,7 @@ const About = () => {
                 <div className='row'>
                     <div className='aboutSection'>
                         <div className='col-xs-12 col-sm-12 col-md-12 col-lg-12'>
-                            <div className="h-100 p-5 m-0 text-white bg-dark">
+                            <div className='h-100 p-5 m-0 text-white bg-dark'>
                                 <h2 className='center'>George Cope, Web-Developer <span className='blink'>_</span> </h2>
                                 <img src={displayImage} className='mx-auto d-block img-fluid rounded-circle img' alt='Osaka, Japan'></img>
                             </div>
