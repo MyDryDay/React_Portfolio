@@ -1,4 +1,8 @@
 /* About page */
+*{
+    box-sizing: border-box;
+}
+
 .center{
     text-align: center;
 }
@@ -19,8 +23,8 @@
 }
 
 .img{
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin-top: 5%;
+    margin-bottom: 0%;
     max-height: 300px;
     max-width: 300px;
 }
@@ -35,10 +39,9 @@ h3{
 
 .objectDiv{
     color: white;
-    padding: 3%;
+    padding: 10px;
     border: 3px solid black;
     border-radius: 7px;
-    margin: 0 5% 0 5%;
 }
 
 .tab{
@@ -57,10 +60,7 @@ h3{
     color: #7FDBFF;
 }
 
-.statementDiv{
-    color: white;
-    padding: 3%;
-    border: 3px solid black;
-    border-radius: 7px;
-    margin: 0 5% 0 5%;
+.objLink{
+    text-decoration: none;
+    color: #AAAAAA;
 }
