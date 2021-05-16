@@ -33,7 +33,7 @@
     background-color: #212529;
 }
 
-h3{
+h1, h2, h3, h4{
     color: white;
 }
 
@@ -67,6 +67,10 @@ h3{
 }
 
 /* Projects page */
+.projectSection{
+    background-color: #212529;
+}
+
 .projectCard{
     margin-bottom: 5%;
 }
@@ -101,6 +105,7 @@ h3{
 
 .projectContainer:hover .overlay {
     opacity: 0.7;
+    border: 2px solid #01FF70;
 }
 
 .headerText {
@@ -117,7 +122,7 @@ h3{
 
 .linkRepo{
     color: white;
-    font-size: 1em;
+    font-size: 2em;
     position: absolute;
     top: 50%;
     left: 40%;
@@ -128,11 +133,17 @@ h3{
 
 .linkApp{
     color: white;
-    font-size: 1em;
+    font-size: 2em;
     position: absolute;
     top: 50%;
     left: 60%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+}
+
+.description{
+    color: white;
+    text-align: center;
+    font-size: 1em;
 }
