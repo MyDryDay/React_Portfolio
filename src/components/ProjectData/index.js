@@ -3,6 +3,7 @@ import CodeQuiz from '../../images/projects/CodeQuiz.png';
 import EmployeeDirectory from '../../images/projects/EmployeeDirectory.png';
 import FFS from '../../images/projects/FFS.png';
 import PasswordGen from '../../images/projects/PasswordGen.png';
+import BookSearch from '../../images/projects/BookSearch.png';
 
 const portfolio = [
     {
@@ -44,6 +45,14 @@ const portfolio = [
         image: PasswordGen,
         repository: 'https://github.com/MyDryDay/UoB_BC_Password_Generator',
         URL: 'https://mydryday.github.io/UoB_BC_Password_Generator'
+    },
+    {
+        id: 6,
+        title: 'React Google Book Search',
+        description: 'A simple application that allows users to search for and save books using Google\'s Books API.',
+        image: BookSearch,
+        repository: 'https://github.com/MyDryDay/UoB_BC_Google_Book_Search',
+        URL: 'https://react-g-books.herokuapp.com/'
     }
 ]
 
